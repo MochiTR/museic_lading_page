@@ -1,0 +1,12 @@
+.deco-line {
+    position:relative;
+    padding-left: 1.5rem;
+    &::after {
+        content:'';
+        height:100%;
+        width:3px;
+        position: absolute;
+        left:0;
+        background: $success;
+    }
+}

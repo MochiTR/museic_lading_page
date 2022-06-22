@@ -1,0 +1,11 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../stylesheet/helpers/variables";
+@import "../stylesheet/helpers/utilities";
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// custom components
+@import "../stylesheet/components/banner";
+@import "../stylesheet/components/decoLine";
+@import "../stylesheet/components/paymentBtn";

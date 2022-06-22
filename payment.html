@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>六角 Landing Page</title>
+    <link rel="stylesheet" href="./stylesheet/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <style>
+        body {
+         font-family: 'Noto Sans TC', sans-serif;   
+        }
+    </style>
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg bg-light navbar-light">
+            <div class="container">
+              <a class="navbar-brand" href="./index.html"><i class="bi bi-music-note"></i>Museic</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                  <a class="nav-link mx-3 active" aria-current="page" href="./index.html">首頁</a>
+                  <a class="nav-link mx-3" href="#">關於本平台</a>
+                  <a class="nav-link mx-3" href="#">服務介紹</a>
+                  <a class="nav-link mx-3" href="./qa.html">常見問題</a>
+                  <a class="btn btn-success" href="./payment.html">方案費用</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <!-- content -->
+          <header class="d-flex justify-content-center align-items-center p-5" style="background-image:url(https://images.unsplash.com/photo-1604147706283-d7119b5b822c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80)">
+            <div class="text-center">
+            <p class="h4 fw-bold lh-lg text-success">Enjoy Life</p>
+            <h1 class="h2 fw-bold">打造豐富的音樂生活</h1>
+            </div>
+          </header>
+
+          <section class="py-5 container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <form action="" class="p-lg-5 shadow-lg">
+                        <h3 class="deco-line fw-bold">選擇方案</h3>
+                        <div class="row row-cols-1 row-cols-lg-3 mt-3 mb-5 gy-3">
+                            <div class="col">
+                                <button type="button" class="btn btn-outline-success w-100 py-3 btn-lg">
+                                    個人方案<br class="d-none d-lg-block">
+                                    NT 250/月
+                                </button>
+                            </div>
+                            <div class="col">
+                                <button type="button" class="btn btn-outline-success w-100 py-3 btn-lg">
+                                    家庭方案<br class="d-none d-lg-block">
+                                    NT 788/月
+                                </button>
+                            </div>
+                            <div class="col">
+                                <button type="button" class="btn btn-outline-success w-100 py-3 btn-lg paymentBtn active">
+                                    學生方案<br class="d-none d-lg-block">
+                                    NT 88/月
+                                </button>
+                            </div>
+                        </div>
+                        <h3 class="deco-line fw-bold">填寫資料</h3>
+                        <div class="row gx-2 gy-4">
+                            <div class="col-lg-6">
+                                <label for="fname" class="form-label">名字</label>
+                                <input id="fname" type="text" class="form-control">
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="lname" class="form-label">姓氏</label>
+                                <input id="lname" type="text" class="form-control">
+                            </div>
+                            <div class="col-12">
+                                <label for="tel" class="form-label">手機號碼</label>
+                                <input id="tel" type="tel" class="form-control">
+                            </div>
+                            <div class="col-12">
+                                <label for="email" class="form-label">電子郵件</label>
+                                <input id="email" type="email" class="form-control">
+                            </div>
+                            <div class="col-12">
+                                <label for="address" class="form-label">住址</label>
+                                <input id="address" type="text" class="form-control">
+                            </div>
+                            <!-- <div class="col-12">
+                                <label for="" class="form-label">方便聯絡時間</label>
+                                <input id="" type="" class="form-control">
+                            </div> -->
+                            <div class="col-12">
+                                限量加購
+                                <div class="overflow-auto">
+                                <div class="form-check mt-2">
+                                    <div class="row gy-2 row-cols-1 row-cols-lg-auto text-nowrap me-3">
+                                        <div class="col me-3">
+                                            <input id="airpods" type="checkbox" name="extraService" class="form-check-input">
+                                            <label for="airpods" class="form-check-label">Airpods 3 <strong class="text-muted">NT 5,870</strong></label>
+                                        </div>
+                                        <div class="col me-3">
+                                            <input id="pmc" type="checkbox" name="extraService" class="form-check-input">
+                                            <label for="pmc" class="form-check-label">PMC twenty5 24i 落地型喇叭 <strong class="text-muted">NT 220,000</strong></label>
+                                        </div>
+                                        <div class="col">
+                                            <input id="pb" type="checkbox" name="extraService" class="form-check-input">
+                                            <label for="pb" class="form-check-label">鐵三角ATH-M50xBT PB <strong class="text-muted">NT 6,500</strong></label>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <label for="" class="form-label">備註說明</label>
+                                <textarea class="form-control textarea-resize-0" rows="5"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="button" class="btn btn-success w-100 py-3 fs-4">前往付款</button>
+                            </div>
+                        </div>
+                    </form>
+                </div> 
+            </div>
+        </section>
+          <!-- content-end -->
+          <footer class="footer p-4 bg-gray text-white">
+            <div class="container mb-5">
+            <div class="row">
+              <div class="col-4">
+            <a class="h2 link-light text-decoration-none" href="./index.html"><i class="bi bi-music-note"></i>Museic</a>
+              </div>
+              <div class="col-8 d-flex justify-content-between">
+                <button type="button" class="btn py-2 fs-5 text-white"><i class="bi bi-telephone-fill text-white"></i> 01-233-233</button>
+                <button type="button" class="btn py-2 fs-5 text-white"><i class="bi bi-twitter text-white"></i> 追蹤我們</button>
+                <button type="button" class="btn py-2 fs-5 text-white"><i class="bi bi-question-lg text-white"></i> 常見問題</button>
+              </div>
+            </div>
+           </div>
+            <div class="text-center">
+            Copyright © 2022 Mochi.All rights reserved.
+            </div>
+          </footer>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
