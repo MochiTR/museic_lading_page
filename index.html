@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Museic</title>
-    <link rel="stylesheet" href="./stylesheet/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./stylesheet/all.css">
     <style>
         body {
          font-family: 'Noto Sans TC', sans-serif;   
@@ -127,9 +127,11 @@
           </section>
               
           <section class="py-5">
-            <div class="container">
+            <div class="container overflow-hidden">
               <h2 class="fw-bold text-center mb-4">收錄各種歌手的曲目</h2>
-              <div class="row row-cols-2 flex-nowrap cardList">
+              <div class="row row-cols-1 flex-nowrap">
+                <div class="col cardList">
+                  <div class="row">
                 <div class="col">
                 <div class="card singerCard  p-3">
                   <img class="img-fluid" src="./img/singer1.png">
@@ -201,6 +203,8 @@
                           </div>
                           </div>
                           </div>
+                        </div>
+                        </div>
               </div>
             </div>
           </section>
@@ -320,5 +324,7 @@
             </div>
           </footer>
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+          <script src="./js/all.js"></script>
 </body>
 </html>

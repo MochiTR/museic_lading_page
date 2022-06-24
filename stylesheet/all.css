@@ -12839,20 +12839,14 @@ textarea.form-control-lg {
   border-radius: 100%;
 }
 
-.cardList {
-  -webkit-animation: cardAnimation 30s infinite linear;
-          animation: cardAnimation 30s infinite linear;
-  overflow: visible;
-}
-
 @-webkit-keyframes cardAnimation {
   0% {
     -webkit-transform: translateX(0);
             transform: translateX(0);
   }
   100% {
-    -webkit-transform: translateX(100%);
-            transform: translateX(100%);
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
   }
 }
 
@@ -12862,7 +12856,7 @@ textarea.form-control-lg {
             transform: translateX(0);
   }
   100% {
-    -webkit-transform: translateX(100%);
-            transform: translateX(100%);
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
   }
 }

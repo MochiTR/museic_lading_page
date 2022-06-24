@@ -7,14 +7,14 @@
 }
 .cardList {
     // transform: translateX(0);
-    animation: cardAnimation 30s infinite linear;
-    overflow: visible;
+    // animation: cardAnimation 30s infinite linear;
+    // overflow: visible;
 }
 @keyframes cardAnimation {
     0% {
         transform:translateX(0);
     }
     100% {
-        transform:translateX(100%);
+        transform:translateX(-1000px);
     }
 }
