@@ -1,0 +1,20 @@
+.singerCard {
+    img {
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+    }
+}
+.cardList {
+    // transform: translateX(0);
+    animation: cardAnimation 30s infinite linear;
+    overflow: visible;
+}
+@keyframes cardAnimation {
+    0% {
+        transform:translateX(0);
+    }
+    100% {
+        transform:translateX(100%);
+    }
+}
