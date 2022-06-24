@@ -12838,25 +12838,3 @@ textarea.form-control-lg {
   height: 150px;
   border-radius: 100%;
 }
-
-@-webkit-keyframes cardAnimation {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX(-1000px);
-            transform: translateX(-1000px);
-  }
-}
-
-@keyframes cardAnimation {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX(-1000px);
-            transform: translateX(-1000px);
-  }
-}
