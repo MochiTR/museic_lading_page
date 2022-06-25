@@ -8981,6 +8981,10 @@ textarea.form-control-lg {
   resize: none !important;
 }
 
+.bg-s-cover {
+  background-size: cover !important;
+}
+
 @media (min-width: 576px) {
   .float-sm-start {
     float: left !important;
@@ -9730,6 +9734,10 @@ textarea.form-control-lg {
 
   .text-sm-center {
     text-align: center !important;
+  }
+
+  .bg-s-sm-cover {
+    background-size: cover !important;
   }
 }
 @media (min-width: 768px) {
@@ -10482,6 +10490,10 @@ textarea.form-control-lg {
   .text-md-center {
     text-align: center !important;
   }
+
+  .bg-s-md-cover {
+    background-size: cover !important;
+  }
 }
 @media (min-width: 992px) {
   .float-lg-start {
@@ -11232,6 +11244,10 @@ textarea.form-control-lg {
 
   .text-lg-center {
     text-align: center !important;
+  }
+
+  .bg-s-lg-cover {
+    background-size: cover !important;
   }
 }
 @media (min-width: 1200px) {
@@ -11984,6 +12000,10 @@ textarea.form-control-lg {
   .text-xl-center {
     text-align: center !important;
   }
+
+  .bg-s-xl-cover {
+    background-size: cover !important;
+  }
 }
 @media (min-width: 1400px) {
   .float-xxl-start {
@@ -12734,6 +12754,10 @@ textarea.form-control-lg {
 
   .text-xxl-center {
     text-align: center !important;
+  }
+
+  .bg-s-xxl-cover {
+    background-size: cover !important;
   }
 }
 @media (min-width: 1200px) {

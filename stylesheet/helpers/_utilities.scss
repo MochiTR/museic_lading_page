@@ -641,6 +641,14 @@ $utilities: map-merge(
       values: (
         0:none
       )
+    ),
+    "background-size": (
+      property:background-size,
+      class:bg-s,
+      responsive:true,
+      values: (
+        cover:cover
+      )
     )
     // scss-docs-end utils-visibility
   ),
