@@ -38,6 +38,7 @@
   --bs-dark: #212529;
   --bs-gray: #6c757d;
   --bs-lightgreen: #92d8b7;
+  --bs-deepdark: rgb(31, 30, 30);
   --bs-primary-rgb: 13, 110, 253;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
@@ -48,6 +49,7 @@
   --bs-dark-rgb: 33, 37, 41;
   --bs-gray-rgb: 108, 117, 125;
   --bs-lightgreen-rgb: 146, 216, 183;
+  --bs-deepdark-rgb: 31, 30, 30;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
@@ -3675,6 +3677,38 @@ textarea.form-control-lg {
   border-color: #92d8b7;
 }
 
+.btn-deepdark {
+  color: #fff;
+  background-color: rgb(31, 30, 30);
+  border-color: rgb(31, 30, 30);
+}
+.btn-deepdark:hover {
+  color: #fff;
+  background-color: #1a1a1a;
+  border-color: #191818;
+}
+.btn-check:focus + .btn-deepdark, .btn-deepdark:focus {
+  color: #fff;
+  background-color: #1a1a1a;
+  border-color: #191818;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(65, 64, 64, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(65, 64, 64, 0.5);
+}
+.btn-check:checked + .btn-deepdark, .btn-check:active + .btn-deepdark, .btn-deepdark:active, .btn-deepdark.active, .show > .btn-deepdark.dropdown-toggle {
+  color: #fff;
+  background-color: #191818;
+  border-color: #171717;
+}
+.btn-check:checked + .btn-deepdark:focus, .btn-check:active + .btn-deepdark:focus, .btn-deepdark:active:focus, .btn-deepdark.active:focus, .show > .btn-deepdark.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(65, 64, 64, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(65, 64, 64, 0.5);
+}
+.btn-deepdark:disabled, .btn-deepdark.disabled {
+  color: #fff;
+  background-color: rgb(31, 30, 30);
+  border-color: rgb(31, 30, 30);
+}
+
 .btn-outline-primary {
   color: #0d6efd;
   border-color: #0d6efd;
@@ -3942,6 +3976,33 @@ textarea.form-control-lg {
 }
 .btn-outline-lightgreen:disabled, .btn-outline-lightgreen.disabled {
   color: #92d8b7;
+  background-color: transparent;
+}
+
+.btn-outline-deepdark {
+  color: rgb(31, 30, 30);
+  border-color: rgb(31, 30, 30);
+}
+.btn-outline-deepdark:hover {
+  color: #fff;
+  background-color: rgb(31, 30, 30);
+  border-color: rgb(31, 30, 30);
+}
+.btn-check:focus + .btn-outline-deepdark, .btn-outline-deepdark:focus {
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(31, 30, 30, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(31, 30, 30, 0.5);
+}
+.btn-check:checked + .btn-outline-deepdark, .btn-check:active + .btn-outline-deepdark, .btn-outline-deepdark:active, .btn-outline-deepdark.active, .btn-outline-deepdark.dropdown-toggle.show {
+  color: #fff;
+  background-color: rgb(31, 30, 30);
+  border-color: rgb(31, 30, 30);
+}
+.btn-check:checked + .btn-outline-deepdark:focus, .btn-check:active + .btn-outline-deepdark:focus, .btn-outline-deepdark:active:focus, .btn-outline-deepdark.active:focus, .btn-outline-deepdark.dropdown-toggle.show:focus {
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(31, 30, 30, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(31, 30, 30, 0.5);
+}
+.btn-outline-deepdark:disabled, .btn-outline-deepdark.disabled {
+  color: rgb(31, 30, 30);
   background-color: transparent;
 }
 
@@ -5701,6 +5762,15 @@ textarea.form-control-lg {
   color: #2e453a;
 }
 
+.alert-deepdark {
+  color: #131212;
+  background-color: #d2d2d2;
+  border-color: #bcbcbc;
+}
+.alert-deepdark .alert-link {
+  color: #0f0e0e;
+}
+
 @-webkit-keyframes progress-bar-stripes {
   0% {
     background-position-x: 1rem;
@@ -6148,6 +6218,20 @@ textarea.form-control-lg {
   color: #fff;
   background-color: #3a5649;
   border-color: #3a5649;
+}
+
+.list-group-item-deepdark {
+  color: #131212;
+  background-color: #d2d2d2;
+}
+.list-group-item-deepdark.list-group-item-action:hover, .list-group-item-deepdark.list-group-item-action:focus {
+  color: #131212;
+  background-color: #bdbdbd;
+}
+.list-group-item-deepdark.list-group-item-action.active {
+  color: #fff;
+  background-color: #131212;
+  border-color: #131212;
 }
 
 .btn-close {
@@ -7360,6 +7444,13 @@ textarea.form-control-lg {
   color: #a8e0c5;
 }
 
+.link-deepdark {
+  color: rgb(31, 30, 30);
+}
+.link-deepdark:hover, .link-deepdark:focus {
+  color: #191818;
+}
+
 .ratio {
   position: relative;
   width: 100%;
@@ -7820,6 +7911,10 @@ textarea.form-control-lg {
 
 .border-lightgreen {
   border-color: #92d8b7 !important;
+}
+
+.border-deepdark {
+  border-color: rgb(31, 30, 30) !important;
 }
 
 .border-white {
@@ -8744,6 +8839,11 @@ textarea.form-control-lg {
   color: rgba(var(--bs-lightgreen-rgb), var(--bs-text-opacity)) !important;
 }
 
+.text-deepdark {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-deepdark-rgb), var(--bs-text-opacity)) !important;
+}
+
 .text-black {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
@@ -8843,6 +8943,11 @@ textarea.form-control-lg {
 .bg-lightgreen {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-lightgreen-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-deepdark {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-deepdark-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-black {
@@ -12828,9 +12933,15 @@ textarea.form-control-lg {
   }
 }
 .banner {
-  height: 700px;
+  height: 100vh;
   background-size: cover;
   background-position: center center;
+  opacity: 0.5;
+  -webkit-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+}
+.banner:hover {
+  opacity: 0.8;
 }
 
 .paymentBanner {
@@ -12861,4 +12972,66 @@ textarea.form-control-lg {
   width: 150px;
   height: 150px;
   border-radius: 100%;
+}
+
+#carousel {
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.album {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.album:nth-child(1) {
+  -webkit-transform: translateX(0) translateZ(0);
+          transform: translateX(0) translateZ(0);
+  background-image: url(https://d1csarkz8obe9u.cloudfront.net/posterpreviews/jazz-dark-album-cover-template-966020e215ba3c34a2b5d68b2d386cd7_screen.jpg?ts=1561547030);
+  background-size: cover;
+  background-position: center;
+}
+
+.album:nth-child(2) {
+  -webkit-transform: translateX(-100%) translateZ(-50px) scale(0.8);
+          transform: translateX(-100%) translateZ(-50px) scale(0.8);
+  background-image: url(https://d1csarkz8obe9u.cloudfront.net/posterpreviews/white-and-blue-electric-music-album-cover-design-template-dd7c0e2c8cae1bbbf25a858f7e83cf80_screen.jpg?ts=1561487793);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+}
+
+.album:nth-child(3) {
+  -webkit-transform: translateX(-200%) translateZ(-75px) scale(0.7);
+          transform: translateX(-200%) translateZ(-75px) scale(0.7);
+  background-image: url(https://d1csarkz8obe9u.cloudfront.net/posterpreviews/album-cover-poster-template-8bcaebb308971766e3f9c5887a282469_screen.jpg?ts=1561427603);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.3;
+}
+
+.album:nth-child(4) {
+  -webkit-transform: translateX(200%) translateZ(-75px) scale(0.7);
+          transform: translateX(200%) translateZ(-75px) scale(0.7);
+  background-image: url(https://d1csarkz8obe9u.cloudfront.net/posterpreviews/vintage-french-jazz-album-cover-template-6eb7f3a0ffaaf2c1e76814c3a89e4357_screen.jpg?ts=1647266307);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.3;
+}
+
+.album:nth-child(5) {
+  -webkit-transform: translateX(100%) translateZ(-50px) scale(0.8);
+          transform: translateX(100%) translateZ(-50px) scale(0.8);
+  background-image: url(https://d1csarkz8obe9u.cloudfront.net/posterpreviews/42c04a2b9398b03f985de78002431f2b_screen.jpg?ts=1561422631);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
 }

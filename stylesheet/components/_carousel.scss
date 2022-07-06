@@ -1,0 +1,48 @@
+#carousel {
+    position: absolute;
+    left:50%;
+    margin-left:-100px;
+    transform-style: preserve-3d;
+  }
+  .album {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    transition: 1s;
+  }
+  .album:nth-child(1) {
+    transform: translateX(0) translateZ(0);
+    background-image:url(https://d1csarkz8obe9u.cloudfront.net/posterpreviews/jazz-dark-album-cover-template-966020e215ba3c34a2b5d68b2d386cd7_screen.jpg?ts=1561547030);
+    background-size:cover;
+    background-position: center;
+  }
+  .album:nth-child(2) {
+    transform: translateX(-100%) translateZ(-50px) scale(0.8);
+    background-image:url(https://d1csarkz8obe9u.cloudfront.net/posterpreviews/white-and-blue-electric-music-album-cover-design-template-dd7c0e2c8cae1bbbf25a858f7e83cf80_screen.jpg?ts=1561487793);
+    background-size:cover;
+    background-position: center;
+    opacity: 0.5;
+  }
+  .album:nth-child(3) {
+    transform: translateX(-200%) translateZ(-75px) scale(0.7);
+    background-image:url(https://d1csarkz8obe9u.cloudfront.net/posterpreviews/album-cover-poster-template-8bcaebb308971766e3f9c5887a282469_screen.jpg?ts=1561427603);
+    background-size:cover;
+    background-position: center;
+    opacity: 0.3;
+  }
+  .album:nth-child(4) {
+    transform: translateX(200%) translateZ(-75px) scale(0.7);
+    background-image:url(https://d1csarkz8obe9u.cloudfront.net/posterpreviews/vintage-french-jazz-album-cover-template-6eb7f3a0ffaaf2c1e76814c3a89e4357_screen.jpg?ts=1647266307);
+    background-size:cover;
+    background-position: center;
+    opacity: 0.3;
+  }
+  .album:nth-child(5) {
+    transform: translateX(100%) translateZ(-50px) scale(0.8);
+    background-image:url(https://d1csarkz8obe9u.cloudfront.net/posterpreviews/42c04a2b9398b03f985de78002431f2b_screen.jpg?ts=1561422631);
+    background-size:cover;
+    background-position: center;
+    opacity: 0.5;
+  }
+  
