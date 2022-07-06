@@ -13042,3 +13042,30 @@ textarea.form-control-lg {
   -o-object-position: center center;
      object-position: center center;
 }
+
+.navbar-hover a::before {
+  content: "";
+  display: block;
+  background-color: rgba(255, 255, 255, 0.55);
+  width: 0%;
+  height: 2px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.navbar-hover a::after {
+  content: "";
+  display: block;
+  background-color: rgba(255, 255, 255, 0.55);
+  width: 0%;
+  height: 2px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.navbar-hover a:hover::before {
+  width: 100%;
+}
+.navbar-hover a:hover::after {
+  width: 100%;
+}

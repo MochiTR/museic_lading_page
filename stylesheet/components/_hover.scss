@@ -1,0 +1,25 @@
+.navbar-hover a::before {
+        content:'';
+        display:block;
+        background-color: rgba($white, .55);
+        width:0%;
+        height:2px;
+        transition:all 0.4s;
+}
+.navbar-hover a::after {
+    content:'';
+    display:block;
+    background-color: rgba($white, .55);
+    width:0%;
+    height:2px;
+    transition:all 0.4s;
+}
+
+.navbar-hover a{
+    &:hover::before {
+        width:100%;
+    }
+    &:hover::after {
+        width:100%;
+    }
+}
