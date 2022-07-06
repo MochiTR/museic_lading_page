@@ -13035,3 +13035,10 @@ textarea.form-control-lg {
   background-position: center;
   opacity: 0.5;
 }
+
+.imageObj {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+}
