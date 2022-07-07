@@ -13038,7 +13038,6 @@ textarea.form-control-lg {
   }
 }
 .banner {
-  height: 100vh;
   background-size: cover;
   background-position: center center;
   opacity: 0.5;
@@ -13050,9 +13049,10 @@ textarea.form-control-lg {
 }
 
 .paymentBanner {
-  height: 180px;
+  height: 300px;
   background-size: cover;
   background-position: center center;
+  opacity: 0.5;
 }
 
 .deco-line {
