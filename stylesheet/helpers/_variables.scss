@@ -80,6 +80,7 @@ $dark:          $gray-900 !default;
 //custom
 $gray:          $gray-600;
 $deepdark:   rgb(31, 30, 30);
+$darkgreen:     rgb(23, 78, 23);
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
@@ -96,6 +97,7 @@ $theme-colors: (
   'gray':       $gray,
   'lightgreen': $lightgreen,
   'deepdark':   rgb(31, 30, 30),
+  'darkgreen':  rgb(23, 78, 23),
 ) !default;
 // scss-docs-end theme-colors-map
 
