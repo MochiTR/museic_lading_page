@@ -3,7 +3,7 @@ console.log(cardList);
 // gsap.defaults({
 //     overwrite: true
 //   });
-
+if(cardList){
 const clone = cardList.cloneNode(true);
 cardList.after(clone);
 
@@ -64,3 +64,18 @@ function next() {
 document.getElementById('carousel').onclick = function() {
   next();  
 };
+}
+
+function addActive() {
+  let btn = document.querySelectorAll('.paymentBtn');
+  const btnArray = [...btn]
+  btnArray.forEach(function(item) {
+    item.addEventListener('click',function(e) {
+      btnArray.forEach(function(item) {
+        item.classList.remove('active');
+      });
+      item.classList.add('active');
+    })
+  })
+}
+addActive();
