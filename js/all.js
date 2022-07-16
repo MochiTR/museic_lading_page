@@ -18,7 +18,7 @@ var transforms = [
     opacity: 1,
     title:"Got Me",
     singer:"Nito-Onna, Poylow",
-    player:`<audio controls controlsList="nodownload"><source src="/audio/Poylow - Got Me (feat. Nito-Onna) [NCS Release].mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>`
+    player:`<audio controls controlsList="nodownload"><source src="./audio/Poylow - Got Me (feat. Nito-Onna) [NCS Release].mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>`
   },
   { x: '-100%',
     z: '-50px',
@@ -26,7 +26,7 @@ var transforms = [
     opacity: 0.5,
     title:"Sleeping Till Noon",
     singer:"Andrew A, FROZT",
-    player:`<audio controls controlsList="nodownload"><source src="/audio/FROZT, Andrew A - Sleeping Till Noon (Feat.Moav) [NCS Release].mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>`
+    player:`<audio controls controlsList="nodownload"><source src="./audio/FROZT, Andrew A - Sleeping Till Noon (Feat.Moav) [NCS Release].mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>`
   },
   { x: '-200%',
     z: '-75px',
@@ -34,7 +34,7 @@ var transforms = [
     opacity: 0.3,
     title:"Street Lights",
     singer:"JJD, Azertion, Time To Talk",
-    player:`<audio controls controlsList="nodownload"><source src="/audio/Time To Talk, Azertion & JJD - Street Lights (Ft. Axollo) [NCS Release].mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>`
+    player:`<audio controls controlsList="nodownload"><source src="./audio/Time To Talk, Azertion & JJD - Street Lights (Ft. Axollo) [NCS Release].mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>`
   },
    { x: '200%',
     z: '-75px',
@@ -42,7 +42,7 @@ var transforms = [
     opacity: 0.3,
     title:"Throne (Lost Identities Remix)",
     singer:"Lost Identites, Rival",
-    player:`<audio controls controlsList="nodownload"><source src="/audio/Rival - Throne (ft. Neoni) (Lost Identities Remix) [NCS Release].mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>`
+    player:`<audio controls controlsList="nodownload"><source src="./audio/Rival - Throne (ft. Neoni) (Lost Identities Remix) [NCS Release].mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>`
   },
   {
     x: '100%',
@@ -51,7 +51,7 @@ var transforms = [
     opacity: 0.5,
     title:"Take Me",
     singer:"Used, Andromedik",
-    player:`<audio controls controlsList="nodownload"><source src="/audio/Andromedik & Used - Take Me [NCS Release].mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>`
+    player:`<audio controls controlsList="nodownload"><source src="./audio/Andromedik & Used - Take Me [NCS Release].mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>`
   }
 ];
 

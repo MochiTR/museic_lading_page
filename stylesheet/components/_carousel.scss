@@ -13,34 +13,34 @@
 }
 .album:nth-child(1) {
   transform: translateX(0) translateZ(0);
-  background-image:url(/img/Take\ Me.png);
+  background-image:url(../img/Take\ Me.png);
   background-size:cover;
   background-position: center;
 }
 .album:nth-child(2) {
   transform: translateX(-100%) translateZ(-50px) scale(0.8);
-  background-image:url(/img/Throne.png);
+  background-image:url(../img/Throne.png);
   background-size:cover;
   background-position: center;
   opacity: 0.5;
 }
 .album:nth-child(3) {
   transform: translateX(-200%) translateZ(-75px) scale(0.7);
-  background-image:url(/img/Street\ Lights.png);
+  background-image:url(../img/Street\ Lights.png);
   background-size:cover;
   background-position: center;
   opacity: 0.3;
 }
 .album:nth-child(4) {
   transform: translateX(200%) translateZ(-75px) scale(0.7);
-  background-image:url(/img/Sleeping\ Till\ Noon.png);
+  background-image:url(../img/Sleeping\ Till\ Noon.png);
   background-size:cover;
   background-position: center;
   opacity: 0.3;
 }
 .album:nth-child(5) {
   transform: translateX(100%) translateZ(-50px) scale(0.8);
-  background-image:url(/img/Got\ Me.png);
+  background-image:url(../img/Got\ Me.png);
   background-size:cover;
   background-position: center;
   opacity: 0.5;
