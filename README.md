@@ -6,6 +6,8 @@ Museic, 音樂電商Landing Page
 
 以Bootstrap5為主來建立，使用Bootstrap5元件居多，也有使用其他插件
 
+## demo
+[Github Page](https://mochitr.github.io/museic_lading_page/index.html)
 
 ## 使用技術
 ##### 主要
